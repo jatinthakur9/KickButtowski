@@ -74,6 +74,10 @@ console.log(sum);
 
 
 
+// arrays 
+
+
+
 
 
 
