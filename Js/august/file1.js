@@ -210,7 +210,48 @@
 
 
 // for loop in array
-// 
+//  use const for array
+
+//        let array = [1,234,523,23,345,3464,3];
+// for (let index = 0; index < array.length; index++) {
+//   const element = array[index];
+//   console.log(element)
+  
+// }
+
+
+//arrat desructuring
+
+
+
+// objects
+
+const obj = {
+  name:"jatin", 
+  age:34 ,
+  hobby:[1,2,3,4,3],
+  "name jatin": "gamers"
+
+};
+
+console.log(obj);
+
+
+console.log(obj.age);
+console.log(obj.hobby);
+
+
+obj.place = "india";
+
+console.log(obj);
+
+console.log(obj["hobby"]);
+
+console.log(obj["name jatin"]);
+
+
+
+
 
 
 
