@@ -51,16 +51,42 @@
 
 // map method
 
-
-const numberr = [ 2, 4 ,5 ,3 ,5 ,2];
-
-
-
-function ind(number){
- return number*number;
-}
+//map method for simple array
+// const numberr = [ 2, 4 ,5 ,3 ,5 ,2];
 
 
-const hll = numberr.map(ind);
 
-console.log(hll);
+// function ind(number){
+//  return number*number;
+// }
+
+
+// const hll = numberr.map(ind);
+
+// console.log(hll);
+
+// map method for obj in array
+
+// const arrobj = [
+
+// {firstname:"jatin"  , age: 22},
+// {firstname:"j"  , age: 2},
+// {firstname:"jat"  , age: 252},
+// {firstname:"jain"  , age: 282},
+
+
+
+// ]
+
+
+// function india(numberr){
+//     return numberr.firstname;
+// }
+
+
+// const maparr = arrobj.map(india);
+
+// console.log(maparr); 
+
+
+// filter method 
