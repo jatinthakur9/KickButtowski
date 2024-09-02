@@ -90,3 +90,100 @@
 
 
 // filter method 
+
+
+// const arr = [1,3,5,6,8,4,12];
+
+
+// function iseven(number){
+
+//     return number%2==0;
+// }
+
+// function isodd(number){
+
+//     return number%2!==0;
+// }
+
+// const jrr = arr.filter(iseven);
+// const trr = arr.filter(isodd);
+// console.log(jrr);
+// console.log(trr);
+
+//reduce method 
+//reduce used in simple array
+// const numbers = [2,4,87,4,6,8,4,3];
+
+// function hello(a,b){
+    
+//     return a+b;
+
+// }
+
+
+// const summ = numbers.reduce(hello, 100);
+
+// console.log(summ);
+
+// recduce used in array with obj inside
+
+// const arrobj = [
+
+// {firstname:"jatin"  , age: 22},
+// {firstname:"j"  , age: 1},
+// {firstname:"jat"  , age: 252},
+// {firstname:"jain"  , age: 282},
+
+
+
+// ]
+
+
+
+// function tage( a , b   ){
+//    return  a + b.age
+// }
+
+
+
+// const sum = arrobj.reduce(tage , 0 );
+
+// console.log(sum);
+
+
+// sort method 
+//simple array
+// const num = [353,343,565,2123,575689,56,9,3,1 ,2224];
+
+
+// num.sort( ( a, b)=>{
+//   return b-a;
+// });
+
+// console.log(num);
+
+
+//sort method obj array
+
+// const arrobj = [
+
+// {firstname:"jatin"  , age: 22},
+// {firstname:"j"  , age: 1},
+// {firstname:"jat"  , age: 252},
+// {firstname:"jain"  , age: 282},
+
+
+
+// ];
+
+
+// arrobj.sort( (a , b )=>{
+//     return a.age -b.age
+// }
+
+// );
+
+// console.log(arrobj);
+
+
+
