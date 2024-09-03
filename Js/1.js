@@ -428,3 +428,72 @@
 //     console.log(i);
 //   }
 // //   set completed
+
+// maps 
+
+// maps are itrable in nature
+// store dara in ordered fashion
+// store key value pair 
+// duplicates key are not allowed like objects
+// objects can only have string or symbol as key
+// in maps you can use any thing as key like array  , number , string etc
+
+
+// const person = new Map();
+
+// person.set(11,2);
+// person.set(1,"hello");
+// person.set('q',2);
+
+// person.set([1,2,3,3,4],2);
+// person.set({},2);
+
+
+
+// console.log(person);
+
+
+//  console.log(person.get('q'));
+
+//  for (const i of person.keys()) {
+//     console.log(i);
+    
+//  }
+//  for (const i of person.values()) {
+//     console.log(i);
+    
+//  }
+
+
+//  for (const [key , value] of person) {
+//      console.log(key , value);
+//  }
+
+// map also completed
+//clone object usinh object.assin
+
+// const obj = {
+
+//     key1:'item 1',
+//     key2:'item 2',  
+//  }
+
+
+//  console.log(obj);
+//   const obj1 = Object.assign({} , obj);
+
+//   console.log(obj1);
+
+//   obj1.key3 = "jatin";
+//   console.log(obj1);
+
+// optional chaining
+
+// const obj = {
+//     firstNmae:"jatin",
+//     // add:{city:"kullu"}
+// }
+
+// console.log(obj?.firstNmae);
+
+// console.log(obj?.add?.city)
