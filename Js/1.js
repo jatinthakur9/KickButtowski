@@ -332,9 +332,99 @@
 // start  , delete  , insert
 
 
-const item = ["item1","item2","item3","item3"];
+// const item = ["item1","item2","item3","item3"];
 
 
-item.splice(1, 2 , "jatin" ,"is great");
+// item.splice(1, 2 , "jatin" ,"is great");
 
-console.log(item);
+// console.log(item);
+
+
+
+
+//005
+
+//iterables 
+//jispe hum for of loop lga sake
+//string  , array are itrables
+
+
+// const  firstName = "jatin thakur is in the house";
+
+// for (const char of firstName) {
+//     console.log(char);
+    
+// }
+
+
+
+// const arr = [ 1,1,3,5,7,9,4,5,54,4,54,5,4,5];
+
+
+// for (const num of arr) {
+//     console.log(num);
+    
+// }
+
+
+
+// const arrobj = [
+
+
+// {'firstname':"j"  , 'age': 1, 'uiid':5952    },
+
+// {'firstname':"j"  , 'age': 1, 'uiid':5951   },
+// {'firstname':"j"  , 'age': 1, 'uiid':5953   },
+
+
+
+// ];
+
+// for (const obj of arrobj) {
+//     console.log(obj);
+// }
+
+// objects are not itrables
+
+
+// now about array like objects
+//jinke pass length propery hoti hai 
+// aur jinko index se access kr skte hai
+//example string
+
+
+
+// sets 
+// sets are itrable
+// sets also have it's own methods 
+// order is not guranteed
+// unique  items only (no duplicates  allowed )
+
+
+//  const j = new Set([1,2,3,"jatin" , {
+
+//     firstname: "jatin",
+//  }  , [1,2,4,5]]);
+
+
+// //  add
+
+// j.add(126);
+// j.add('d');
+// j.add(true);
+// j.add('Hello sir');
+
+//  const arr = [1,5,7,96,4,8];
+
+//  j.add(arr);
+//  j.add([1,5,7,96,4,8]);
+// //  this time it will add become both do not have same address
+//  j.add([1,5,7,96,4,8]);
+
+//  console.log(j); 
+//   console.log(j.has(1));
+
+//   for (const i of j) {
+//     console.log(i);
+//   }
+// //   set completed
