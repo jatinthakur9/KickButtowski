@@ -10,8 +10,10 @@
 // for each aray method 
 // this was for each on simple aray 
 // const arr = [5 , 3  , 87 , 3 , 7];
+git config --global user.name "jatinthakur9"
+git config --global user.email "tjatin29@gmail.com"
 
- 
+
 
 // function jtt(  num ,  index ){
   
@@ -494,6 +496,54 @@
 //     // add:{city:"kullu"}
 // }
 
-// console.log(obj?.firstNmae);
+// console.log(obj?.firstNmae); 
 
 // console.log(obj?.add?.city)
+
+
+// methods 
+// function inside objects
+
+// 006 oop and protoypal inheritance  completed 
+
+// how javascript works 007
+
+
+//closure in javscript 008 done
+
+// Dom Document object model
+
+//   console.log(document);
+
+// select element by id 
+//  const mainHeading = document.getElementById("main-heading")
+//  console.log(mainHeading.innerText);
+
+
+// get element using query selector
+
+// const j = document.querySelector(".header");
+
+// console.log(j.outerHTML);
+
+// const heading = document.querySelector('#main-heading');
+// console.log(heading.outerHTML);
+
+// change text 
+// text content and innerText
+
+const heading = document.getElementById("main-heading");
+console.log(heading.textContent);
+
+// heading.textContent = "this is the best thing "
+console.log(heading.innerText);
+// text content shows all the text 
+// but the innerText show only text that is visible to the user on display
+
+
+
+
+
+
+
+
