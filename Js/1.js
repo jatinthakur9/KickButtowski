@@ -10,8 +10,7 @@
 // for each aray method 
 // this was for each on simple aray 
 // const arr = [5 , 3  , 87 , 3 , 7];
-git config --global user.name "jatinthakur9"
-git config --global user.email "tjatin29@gmail.com"
+
 
 
 
@@ -532,13 +531,17 @@ git config --global user.email "tjatin29@gmail.com"
 // change text 
 // text content and innerText
 
-const heading = document.getElementById("main-heading");
-console.log(heading.textContent);
+// const heading = document.getElementById("main-heading");
+// console.log(heading.textContent);
 
-// heading.textContent = "this is the best thing "
-console.log(heading.innerText);
+// // heading.textContent = "this is the best thing "
+// console.log(heading.innerText);
 // text content shows all the text 
 // but the innerText show only text that is visible to the user on display
+
+
+// change the  styles of elements
+
 
 
 
